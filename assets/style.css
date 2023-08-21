@@ -1,5 +1,14 @@
 * {
   box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(123, 145, 145);
+}
+
+.header {
+  color: #282626;
 }
 
 header nav{
@@ -8,13 +17,14 @@ header nav{
 }
 
 header h1 {
-  display: inline-block;  
+  display: inline-block;
+  font-size: 48px;
 }
 
 nav {
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 
@@ -26,4 +36,6 @@ nav {
   justify-content: space-between;
 }
 
-
+.top-image {
+  height: 100%;
+}
