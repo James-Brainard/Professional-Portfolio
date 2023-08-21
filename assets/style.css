@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+header nav{
+  float: right;
+  font-family: 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+header h1 {
+  display: inline-block;  
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+
+.with-bullet-point {
+  padding-top: 20px;
+  list-style: circle;
+  display: flex;
+  width: 350px;
+  justify-content: space-between;
+}
+
+
