@@ -47,6 +47,11 @@ nav {
 article {
   display: flex;
   align-items: center;
+  font-family: 'Trebuchet MS';
+}
+
+#about {
+  width: 750px;
 }
 
 h2 {
@@ -79,6 +84,10 @@ h2 {
   background-position: center;
   height: 250px;
   background-image: url("../assets/images/html\ refactor\ img.png");
+}
+
+#project-title {
+  width: 35%;
 }
 
 .contact-me-float-right {
