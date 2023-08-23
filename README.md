@@ -28,4 +28,4 @@ HTML, CSS & Git.
 https://james-brainard.github.io/Professional-Portfolio/
 
 ## Screenshot
-![screenshot(challenge-2-screenshot)]
+![screenshot(challenge-2-screenshot.jpg)]
