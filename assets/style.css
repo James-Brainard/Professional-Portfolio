@@ -38,11 +38,14 @@ nav {
 
 .with-bullet-point {
   padding-top: 20px;
-  list-style: circle;
   display: flex;
   width: 350px;
   justify-content: space-between;
+  list-style-position: inside;
+  text-align: center;
 }
+
+
 
 article {
   display: flex;
@@ -51,7 +54,7 @@ article {
 }
 
 #about {
-  width: 750px;
+  width: 100%;
 }
 
 h2 {
@@ -65,41 +68,54 @@ h2 {
   background-position: center;
 }
 
-#contact {
-  display: flex;
-  justify-content: space-between;
+#about {
+  flex-direction: row;
+  white-space: normal;
 }
 
-/* .work-float-right {
-  border: 4px solid gray;
-  background-size: cover;
-  background-position: center;
-  height: 150px;
-  background-image: url("../assets/images/mens-pro-standard-devin-booker-black-phoenix-suns-avatar-pullover-sweatshirt_ss5_p-5347544+pv-4+u-svggjydzdtcj3qwunzft+v-jxdjrwnbokn9rk5k2jo7.jpg");
-} */
+
+a {
+  width: 525px;
+}
 
 #main-project {
   border: 4px solid gray;
   background-size: cover;
   background-position: center;
   height: 250px;
+  width: 525px;
   background-image: url("../assets/images/html\ refactor\ img.png");
+  display: inline-block;
 }
 
 #project-title {
   width: 35%;
+  color: white;
+}
+
+#contact {
+  display: flex;
+  justify-content: space-between;
 }
 
 .contact-me-float-right {
   width: 250px;
 }
 
-.work-float-right:hover {
-
+@media screen and (max-width: 992px) {
+  .header {
+    width: 50%;
+  }
 }
 
-@media screen and (max-width: 992px) {
-  .header.card {
-    width: 70%;
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card-contact {
+    flex-direction: column;
   }
 }
