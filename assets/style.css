@@ -55,10 +55,12 @@ article {
 
 #about {
   width: 100%;
+  max-width: 50%;
 }
 
 h2 {
   width: 200px;
+  /* border-right: solid 3px grey; */
 }
 
 .top-image {
@@ -86,6 +88,18 @@ a {
   width: 525px;
   background-image: url("../assets/images/html\ refactor\ img.png");
   display: inline-block;
+  width: 300px;
+}
+
+#main-project-1 {
+  border: 4px solid gray;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  width: 525px;
+  background-image: url("../assets/images/Background-1080.png");
+  display: inline-block;
+  width: 300px;
 }
 
 #project-title {
@@ -96,6 +110,16 @@ a {
 #contact {
   display: flex;
   justify-content: space-between;
+}
+
+#about {
+  padding-left: 25px;
+  border-left: solid 3px;
+}
+
+.work {
+  border-right: solid 3px;
+  width: 100px;
 }
 
 .contact-me-float-right {
@@ -117,5 +141,21 @@ a {
 @media screen and (max-width: 480px) {
   .card-contact {
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .project-resize {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .project-resize-1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
   }
 }
