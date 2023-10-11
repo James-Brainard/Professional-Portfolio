@@ -102,9 +102,36 @@ a {
   width: 300px;
 }
 
+#main-project-2 {
+  border: 4px solid gray;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  width: 525px;
+  background-image: url("../assets/images/HIT.jpg");
+  display: inline-block;
+  width: 300px;
+}
+
 #project-title {
   width: 35%;
   color: white;
+  display: flex;
+  display: table-row;
+}
+
+#surfPlanner {
+  width: 35%;
+  color: white;
+  display: flex;
+  display: table-row;
+}
+
+#hammerIT {
+  width: 35%;
+  color: white;
+  display: flex;
+  display: table-row;
 }
 
 #contact {
